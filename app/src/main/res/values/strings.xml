@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Memes</string>
+
+    <!--иконки шрифтами !-->
+    <string name="fa_icon_like">&#xf004;</string>
+    <!--иконки шрифтами !-->
 </resources>

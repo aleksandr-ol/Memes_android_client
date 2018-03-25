@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Memes.iml" filepath="$PROJECT_DIR$/Memes.iml" />
+      <module fileurl="file://C:\Users\Immortal\Documents\GitHub\Memes_android_client\Memes.iml" filepath="C:\Users\Immortal\Documents\GitHub\Memes_android_client\Memes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Memes_android_client.iml" filepath="$PROJECT_DIR$/Memes_android_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
