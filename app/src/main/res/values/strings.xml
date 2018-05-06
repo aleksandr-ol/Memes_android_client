@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Memes</string>
+
+    <!--Unicodes of fa icons-->
+    <string name="fa_heart">f004</string>
+    <!--Unicodes of fa icons-->
+
+    <string name="api_url">http://coolmemes.pythonanywhere.com/</string>
 </resources>

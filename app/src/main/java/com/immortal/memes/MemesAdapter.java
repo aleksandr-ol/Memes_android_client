@@ -34,7 +34,7 @@ public class MemesAdapter extends RecyclerView.Adapter<MemesAdapter.ViewHolder> 
 
         if (memes_list.get(position).getAttachments().size() > 0)
         Picasso.with(holder.itemView.getContext())
-                .load("http://192.168.100.102:5000/" + memes_list.get(position).getAttachments().get(0).getPath())
+                .load(R.string.api_url + memes_list.get(position).getAttachments().get(0).getPath())
                 .into(holder.imageView);
     }
 

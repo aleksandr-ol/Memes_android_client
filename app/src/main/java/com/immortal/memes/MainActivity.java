@@ -8,10 +8,12 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.immortal.memes.server.Mem;
-import com.immortal.memes.server.ServerAPI;
+
 import com.malinskiy.superrecyclerview.OnMoreListener;
 import com.malinskiy.superrecyclerview.SuperRecyclerView;
+
+import com.immortal.memes.server.Mem;
+import com.immortal.memes.server.ServerAPI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         main_RecyclerView.setLayoutManager(getLayoutManager());
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.100.102:5000/")
+                .baseUrl(getResources().getString(R.string.api_url))
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         serverAPI = retrofit.create(ServerAPI.class);
